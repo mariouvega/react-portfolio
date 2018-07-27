@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import registerServiceWorker from './registerServiceWorker';
-import routes from './routes';
-import './theme/globalStyle';
+import registerServiceWorker from 'registerServiceWorker';
+import routes from 'routes';
+import 'theme/globalStyle';
 import { AppContainer } from 'react-hot-loader';
 
 ReactDOM.render(

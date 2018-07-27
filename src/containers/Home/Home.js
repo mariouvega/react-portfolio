@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import styled from 'styled-components';
-import { Container } from '../../theme/grid';
+import { Container } from 'theme/grid';
 import { MyImage, RevealP } from './Home.style';
 
 
