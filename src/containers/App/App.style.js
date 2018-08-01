@@ -9,7 +9,8 @@ export const Background = styled.div`
 	top: 10vh;
 	height: 80vh;
 	// background-color: ${purple};
-	// opacity: 0.4;
+	background-image: url(${require('assets/body-background.jpg')});
+	opacity: 0.4;
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
