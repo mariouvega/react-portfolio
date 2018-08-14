@@ -14,7 +14,25 @@ class Projects extends Component {
 		return (
 			<Container marginBottom="1000px">
 				<h1>Name of <Link href="#">Project</Link></h1>
-				<Flex justify={'center'}>
+				<Flex justify={'center'} marginBottom="5em">
+					<Zoomy
+					  imageUrl={require('assets/monkeyIgnores.jpeg')}
+					  renderThumbnail={({ showImage }) => 
+					  	<ThumbnailBtn onClick={showImage}>
+					  		<Image src={require('assets/monkeyIgnoresThumb.jpg')} alt="monkey didn't get joke" />
+					  	</ThumbnailBtn>
+						}
+					  scale={[1.1, 1.1]}
+					  imageProps={{
+					    style: {
+					      width: '100vw',
+					      height: 'auto'
+					    }
+					  }}
+					/>
+				</Flex>
+				<h1>Name of <Link href="#">Project</Link></h1>
+				<Flex justify={'center'} marginBottom="5em">
 					<Zoomy
 					  imageUrl={require('assets/monkeyIgnores.jpeg')}
 					  renderThumbnail={({ showImage }) => 
