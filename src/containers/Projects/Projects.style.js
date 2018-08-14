@@ -26,5 +26,7 @@ export const ProjectDiv = styled.div`
 `
 
 export const Image = styled.img`
-
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
 `
