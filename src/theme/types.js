@@ -24,3 +24,16 @@ export const Link = styled.a`
 		background-color: ${purple};
 	}
 `
+
+export const H1 = styled.h1`
+	${({ align }) => align && `text-align: ${align};`}
+`
+
+export const H2 = styled.h2`
+	${({ align }) => align && `text-align: ${align};`}
+`
+
+// export const [H1, H2, H3, H4, H5, H6, P, Blockqoute, Code] = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'blockqoute', 'code']
+// 	.map((tag) => styled[tag]`
+// 		${({ align }) => align && `text-align: ${align};`}
+// 	`)
