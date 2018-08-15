@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Zoomy from 'react-zoomy';
-import { ThumbnailBtn, ProjectDiv, Image } from './Projects.style';
+import { ThumbnailBtn, ProjectDiv, Image, Title } from './Projects.style';
 import { Container, ProjectContainer, Flex } from 'theme/grid';
 import { Link } from 'theme/types'
 
@@ -13,6 +13,7 @@ class Projects extends Component {
 	render() {
 		return (
 			<Container marginBottom="1000px">
+				<Title>Projects</Title>
 				<h1>Name of <Link href="#">Project</Link></h1>
 				<Flex justify={'center'} marginBottom="5em">
 					<Zoomy

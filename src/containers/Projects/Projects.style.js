@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { purple } from 'theme/variables'
 
 export const ThumbnailBtn = styled.div`
 	cursor: pointer;
@@ -27,6 +28,15 @@ export const ProjectDiv = styled.div`
 
 export const Image = styled.img`
 	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+`
+
+export const Title = styled.h1`
+	color: ${purple};
+	margin-top: 0px;
+	font-weight: 900;
+	font-size: 2em;
 	margin-left: auto;
 	margin-right: auto;
 `
