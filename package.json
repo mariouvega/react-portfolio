@@ -37,6 +37,7 @@
     "react-dom": "^16.4.1",
     "react-hot-loader": "^4.0.0",
     "react-motion": "^0.5.2",
+    "react-player": "^1.6.4",
     "react-router": "3.x",
     "react-waypoint": "^8.0.3",
     "react-zoomy": "^1.1.1",
